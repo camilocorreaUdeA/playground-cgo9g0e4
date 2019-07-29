@@ -50,35 +50,9 @@ Objetos:
 ![analog objeto2](/img/car_obj2.png)
 
 
-```C++ runnable
-#include <iostream>
-
-using namespace std;
-
-template<typename T>
-void func(T&& a)
+```cpp
+class MiClase
 {
-    auto& x = a;
-    cout<<x<<endl;
-}
-
-int main()
-{
-	
-	int x = 2;
-    const int d = 3;
-    int& b = x;
-    const int& c = x;
-    int&& e = 3;
-    const int&& f = 4;
-    func(x);
-    func(d);
-    func(b);
-    func(c);
-    func(e);
-    func(f);
-    func(8);
-       
-	return 0;
-}
+  //Aquí van los miembros de la clase: Variables y funciones
+}; //NO olvidar el ;
 ```
