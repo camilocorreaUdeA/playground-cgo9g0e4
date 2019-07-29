@@ -49,12 +49,29 @@ Objetos:
 ![analog objeto1](/img/car_obj1.png)
 ![analog objeto2](/img/car_obj2.png)
 
-Para declarar una clase en C++ se utiliza la palabra reservada `class`, se da un nombre a la clase y luego entre llaves se declaran los
-miembros de la clase.
+Para declarar una clase en C++ se utiliza la palabra reservada `class`, se da un nombre a la clase y luego entre llaves
+se declaran los miembros de la clase.
+
+Las clases no pueden declararse al interior de funciones, ya que son una definición de un tipo de dato creado por el usuario (programador).
+En general, las clases se declaran en bibliotecas (librerías) individuales cuyo nombre es usualmente el mismo nombre de la clase.
 
 ```cpp
 class MiClase
 {
   //Aquí van los miembros de la clase: Variables y funciones
 }; //NO olvidar el ;
+```
+Los objetos, tal como se había mencionado con anterioridad, son variables (instancias) del tipo de dato definido por una clase. Por tanto, los
+objetos se pueden declarar al interior o por fuera de funciones, tal y como una variable local o global respectivamente. Pueden ser declarados
+como miembros de otras clases, es decir al interior de otras clases. Luego, para declarar un objeto primero se utiliza el mobre de la clase a la
+que pertenece el objeto seguido de un nombre para el objeto y de una lista opcional de inicialización entre paréntesis. Dicha lista se verá más
+adelante.
+
+```cpp
+MiClase objetoGlobal;  //Declaración de un objeto global de la clase MiClase
+
+int main()
+{
+	MiClase objetoLocal; //Declaración de un objeto local de la clase MiClase  
+}
 ```
