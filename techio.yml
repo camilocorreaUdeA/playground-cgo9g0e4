@@ -2,3 +2,5 @@ title: Clases y Objetos en C++ (Práctica 1)
 plan:
 - title: Clases y Objetos en C++
   statement: markdowns/parte1.md
+- title: Miembros de clase en C++: Variables y Métodos
+  statement: markdowns/parte2.md
