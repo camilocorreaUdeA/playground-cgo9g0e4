@@ -19,20 +19,23 @@ Puede profundizar acerca del concepto de Programación Orientada a Objetos en lo
 [POO3](https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/)
 
 # Clases y Objetos en C++
-1. Clases
+1. Clases:
+
 Una clase es en general un modelo, receta o plantilla que define el estado y comportamiento de cierto tipo de objetos.
 Una clase puede pensarse como una colección de variables (atributos o propiedades) y funciones (métodos) que permiten representar 
-un conjunto de datos y especificar las operaciones o procedimientos que permiten manipular tales datos. Se puede inclusive entender una 
-clase como un tipo de dato personalizado, similar a las estructuras (structs), donde cada programador define los miembros que va a tener su 
-tipo de dato. De hecho, los tipos de dato nativos de C++ son en realidad clases.
+un conjunto de datos y especificar las operaciones o procedimientos que permiten manipular tales datos. Se puede inclusive entender una
+clase como un tipo de dato personalizado, similar a las estructuras (structs), donde cada programador define los miembros que va a
+tener su tipo de dato. De hecho, los tipos de dato nativos de C++ son en realidad clases.
 
-2. Objetos
+2. Objetos:
+
 Un objeto es una instancia de una clase, es decir una entidad que se construye a partir
 de las descripciones consignadas en una clase (datos y funciones). Por tanto, un objeto
 se puede entender como una "variable" que se declara del tipo de dato de cierta clase. Un objeto es como tal
 la entidad tangible que permite acceder a los datos y funciones modeladas al interior de la clase
 
 Ejemplo:
+
 Una analogía para entender las clases y los objetos puede ser una fabrica ensambladora de carros.
 Hay un modelo o diseño (clase) especifico de un auto, pero este modelo en si no es un carro, es solo una descripción 
 de que características y funcionalidades deben tener los carros que sean de ese modelo.
