@@ -19,6 +19,6 @@ de todos los objetos que estén de momento almacenados en el arreglo.
 Un miembro tipo int para un número serial que identifica al objeto
 Un miembro tipo std::string para darle una denominación al objeto
 
-*Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
+* Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
 objeto de la clase A asignando valores al serial y al nombre del objeto. Luego almacena el objeto en la ListadeObjetos invocando el método
 que esta clase tiene para almacenar objetos de la clase A.
