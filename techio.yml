@@ -6,3 +6,5 @@ plan:
   statement: markdowns/parte2.md
 - title: Acceso a miembros privados de una clase Funciones y clases "Amigas"
   statement: markdowns/parte3.md
+- title: Ejercicios práctica 1
+  statement: markdowns/ejercicios.md
