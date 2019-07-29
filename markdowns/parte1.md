@@ -24,7 +24,7 @@ Puede profundizar acerca del concepto de Programación Orientada a Objetos en lo
 Una clase es en general un modelo, receta o plantilla que define el estado y comportamiento de cierto tipo de objetos.
 Una clase puede pensarse como una colección de variables (atributos o propiedades) y funciones (métodos) que permiten representar 
 un conjunto de datos y especificar las operaciones o procedimientos que permiten manipular tales datos. Se puede inclusive entender una
-clase como un tipo de dato personalizado, similar a las estructuras (structs), donde cada programador define los miembros que va a
+clase como un tipo de dato personalizado, similar a las estructuras (`structs`), donde cada programador define los miembros que va a
 tener su tipo de dato. De hecho, los tipos de dato nativos de C++ son en realidad clases.
 
 2. Objetos:
@@ -49,7 +49,7 @@ Objetos:
 ![analog objeto1](/img/car_obj1.png)
 ![analog objeto2](/img/car_obj2.png)
 
-Para declarar una clase en C++ se utiliza la palabra reservada class, se da un nombre a la clase y luego entre llaves se declaran los
+Para declarar una clase en C++ se utiliza la palabra reservada `class`, se da un nombre a la clase y luego entre llaves se declaran los
 miembros de la clase.
 
 ```cpp
