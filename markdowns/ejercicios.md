@@ -11,14 +11,14 @@ tenga espacio disponible para guardar el objeto. En caso contrario se debe mostr
 Debe tener un método para retirar un objeto del arreglo, este método debe verificar que si haya algo para sacar del arreglo, es decir que el arreglo
 no vaya a estar vacío, en cuyo caso debe desplegar un mensaje diciendo que no hay nada para sacar de arreglo.
 
-Debe tener un método para desplegar la información de un ojeto en particular de alguna posición del arreglo. Debe verificar que dicha posición si
-tiene algi guardado, en caso contrario debe avisar de la situación con un mensaje. Este mismo método debe permitir que se despliegue la información
+Debe tener un método para desplegar la información de un objeto almacenado en alguna posición del arreglo. Debe verificar que dicha posición si
+tiene algo guardado, en caso contrario debe avisar de la situación con un mensaje. Este mismo método debe permitir de manera alternativa que se despliegue la información
 de todos los objetos que estén de momento almacenados en el arreglo.
 
 * Una clase A que tiene los siguientes miembros privados:
-Un miembro tipo int para
+Un miembro tipo int para un número serial que identifica al objeto
+Un miembro tipo std::string para darle una denominación al objeto
 
-
-Los objetos de la clase A solo se pueden "configurar" a través de una función externa llamada xxx
-
-continua
+Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
+objeto de la clase A asignando valores al serial y al nombre del objeto. Luego almacena el objeto en la ListadeObjetos invocando el método
+que esta clase tiene para almacenar objetos de la clase A.
