@@ -75,19 +75,3 @@ int main()
 	MiClase objetoLocal; //Declaración de un objeto local de la clase MiClase  
 }
 ```
-
-# Encapsulamiento y nivel de acceso a miembros de la clase
-
-El acceso a los miembros de una clase solo puede lograrse a través de una instancia de esa clase, es decir, de un objeto de dicha clase.
-De modo que para acceder a un miembro en específico de una clase se llama al objeto recién declarado y con ayuda del operador punto `.` se hace
-el llamado a la variable o método al cual se requiere acceder.
-
-```cpp
-int main()
-{
-	MiClase miObjeto; //Declarando un objeto de la clase
-	
-	miObjeto.cambiarVar1(5); //Accediendo a un miembro con el operador punto
-	double var = miObjeto,calcularArea(34.6, 23.9); //Accediendo a un miembro con el operador punto
-}
-```
