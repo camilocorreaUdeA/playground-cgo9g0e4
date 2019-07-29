@@ -7,7 +7,7 @@ la clase y se debe utilizar la palabra reservada `friend` en esa declaración.
 Nota: La amistad en C++ es unívoca, es decir, si la clase A declara a la clase B como amiga eso no quiere decir que la clase B considere a la clase A
 como amiga.
 
-Las funcies amigas o los métodos de una clase amiga pueden en ocasiones recibir como parámetro de entrada una referencia a un objeto de la clase que las declaro como amiga.
+Las funciones amigas o los métodos de una clase amiga pueden en ocasiones recibir como parámetro de entrada una referencia a un objeto de la clase que las declaro como amigos.
 
 Declaración de una función amiga:
 
