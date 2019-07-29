@@ -49,6 +49,8 @@ Objetos:
 ![analog objeto1](/img/car_obj1.png)
 ![analog objeto2](/img/car_obj2.png)
 
+Para declarar una clase en C++ se utiliza la palabra reservada class, se da un nombre a la clase y luego entre llaves se declaran los
+miembros de la clase.
 
 ```cpp
 class MiClase
