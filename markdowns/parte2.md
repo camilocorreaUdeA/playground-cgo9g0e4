@@ -28,7 +28,7 @@ void MiClase::cambiarVar1(int a)  //Definición del método por fuera de la clas
 
 double MiClase::calcularArea(const double& x, const double& y) //Definición del método por fuera de la clase
 {
-	return x*y;
+	return x*y*var2;
 }
 ```
 
@@ -45,5 +45,47 @@ int main()
 	
 	miObjeto.cambiarVar1(5); //Accediendo a un miembro con el operador punto
 	double var = miObjeto,calcularArea(34.6, 23.9); //Accediendo a un miembro con el operador punto
+}
+```
+
+Acceso público (public) y acceso privado (private)
+
+De momento se va a hacer enfasis en los niveles de acceso público y privado. El nivel de acceso público se expresa en la declaración de la clase 
+con la palabra reservada `public` y permite que un miembro de clase sea accedido directamente a través del operador punto, usualmente los métodos
+de una clase tienen este nivel acceso. Por otro lado, el nivel de acceso privado permite la ocultación de ciertos miembros de la clase y restringe
+el acceso a dichos miembros a solo otros miembros de la misma clase, es decir solo puede accederse a un miembro privado de una clase mediante un miembro
+público que acceda directamente a ese miembro. En este caso, al hacer un llamado directo del miembro privado con el operador punto resultará en un error
+de compilación de la aplicación. EL nivel de acceso privado es el nivel de acceso por defecto de los miembros de una clase en C++ y se expresa con el uso
+de la palabra reservada `private`.
+
+```cpp
+class MiClase
+{
+	int var1; //Acceso privado por defecto
+	const double var2 = 3.14159;  //Acceso privado por defecto
+	
+	public: //De aquí en adelante los miembros son públicos a no ser que se exprese lo contrario
+	void cambiarVar1(int a); //Acceso público
+	double calcularArea(const double& x, const double& y); //Acceso público
+};
+
+void MiClase::cambiarVar1(int a)
+{
+	var1 = a;
+}
+
+double MiClase::calcularArea(const double& x, const double& y)
+{
+	return x*y*var2;
+}
+
+int main()
+{
+	MiClase obj;
+	
+	obj.cambiarVar1(100); //Ok!
+	obj.var1 = 200;       //Error!
+	
+	return 0;
 }
 ```
