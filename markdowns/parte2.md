@@ -21,12 +21,12 @@ class MiClase
 	double calcularArea(const double& x, const double& y); //Declaración de un método de la clase
 };
 
-void MiClase::cambiarVar1(int a)
+void MiClase::cambiarVar1(int a)  //Definición del método por fuera de la clase
 {
 	var1 = a;
 }
 
-double MiClase::calcularArea(const double& x, const double& y)
+double MiClase::calcularArea(const double& x, const double& y) //Definición del método por fuera de la clase
 {
 	return x*y;
 }
