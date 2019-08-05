@@ -42,6 +42,6 @@ horas, que el día no sea cero o menor a cero y que respete el máximo de días 
 bisiesto para el caso del mes de febrero. Esta clase tiene una sobrecarga adicional para ese método ya que se debe permitir ingresar
 el mes en letras o en números.
 
-Una clase externa "ClaseExterna" que permite crear objetos de la clase "Cita" que tiene un método que permite crear una cita, este método recibe como parámetros de entrada todos los datos para almacenar en los miembros del objeto cita. Además este método debe ir agregando las citas que se van creando en una lista de citas. Dicha lista debe poder ser consultada a través de una función externa llamada "consultarCitas".
+Una clase externa "ClaseExterna" que permite crear objetos de la clase "Cita" que tiene un método que permite crear una cita, este método recibe como parámetros de entrada todos los datos para almacenar en los miembros del objeto cita. Además este método debe ir agregando las citas que se van creando en una lista de citas (la lista puede guardar máximo 10 citas). Dicha lista debe poder ser consultada a través de una función externa llamada "consultarCitas".
 
 Agregue un pequeño menú de opciones que permita crear citas e ir agregandolas a la lista de citas y también visualizar las citas que ya se han agendado.
