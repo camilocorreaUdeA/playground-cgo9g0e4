@@ -25,3 +25,5 @@ objeto de la clase A asignando valores al serial y al nombre del objeto. Luego a
 que esta clase tiene para almacenar objetos de la clase A.
 
 * La aplicación debe tener un sencillo menú de opciones que permita ejecutar distintas acciones como agregar objetos a la lista, retirar objetos de la lista o desplegar información de un objeto individual o de todos los objetos de la lista.
+
+2. holaaaaa
