@@ -1,6 +1,8 @@
 # Ejercicios práctica 1
 
-1. Desarrolle una sencilla aplicación en las que se tienen las siguientes clases:
+1. Primer ejercicio práctico: 
+
+Desarrolle una sencilla aplicación en la que se tienen las siguientes clases:
 
 * Una clase ListadeObjetos es una clase que contiene un arreglo en el que se pueden almacenar objetos de la clase A, el arreglo puede guardar como
 máximo 20 objetos de la clase A. 
@@ -26,4 +28,4 @@ que esta clase tiene para almacenar objetos de la clase A.
 
 * La aplicación debe tener un sencillo menú de opciones que permita ejecutar distintas acciones como agregar objetos a la lista, retirar objetos de la lista o desplegar información de un objeto individual o de todos los objetos de la lista.
 
-2. holaaaaa
+2. Segundo ejercicio práctico: 
