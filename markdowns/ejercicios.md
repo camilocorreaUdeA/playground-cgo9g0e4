@@ -1,6 +1,7 @@
 # Ejercicios práctica 1
 
-1. Primer ejercicio práctico: 
+<ol>
+<li> Primer ejercicio práctico: 
 
 Desarrolle una sencilla aplicación en la que se tienen las siguientes clases:
 
@@ -17,18 +18,20 @@ Debe tener un método para desplegar la información de un objeto almacenado en 
 tiene algo guardado, en caso contrario debe avisar de la situación con un mensaje. Este mismo método debe permitir de manera alternativa que se despliegue la información
 de todos los objetos que estén de momento almacenados en el arreglo.
 
-* Una clase A que tiene los siguientes miembros privados:
+<ul>
+<li> Una clase A que tiene los siguientes miembros privados:
 Un miembro tipo int para un número serial que identifica al objeto
 
-Un miembro tipo std::string para darle una denominación al objeto
+Un miembro tipo std::string para darle una denominación al objeto</li>
 
-* Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
+<li> Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
 objeto de la clase A asignando valores al serial y al nombre del objeto. Luego almacena el objeto en la ListadeObjetos invocando el método
-que esta clase tiene para almacenar objetos de la clase A.
+que esta clase tiene para almacenar objetos de la clase A.</li>
 
-* La aplicación debe tener un sencillo menú de opciones que permita ejecutar distintas acciones como agregar objetos a la lista, retirar objetos de la lista o desplegar información de un objeto individual o de todos los objetos de la lista.
-
-2. Segundo ejercicio práctico: 
+<li> La aplicación debe tener un sencillo menú de opciones que permita ejecutar distintas acciones como agregar objetos a la lista, retirar objetos de la lista o desplegar información de un objeto individual o de todos los objetos de la lista.</li>
+</li>
+</ul>
+<li> Segundo ejercicio práctico: 
 
 Desarrolle una aplicación sencilla de Agenda de Citas y Compromisos que tiene las siguientes clases y funcionalidades:
 
@@ -44,4 +47,5 @@ el mes en letras o en números.
 
 Una clase externa "ClaseExterna" que permite crear objetos de la clase "Cita" que tiene un método que permite crear una cita, este método recibe como parámetros de entrada todos los datos para almacenar en los miembros del objeto cita. Además este método debe ir agregando las citas que se van creando en una lista de citas (la lista puede guardar máximo 10 citas). Dicha lista debe poder ser consultada a través de una función externa llamada "consultarCitas".
 
-Agregue un pequeño menú de opciones que permita crear citas e ir agregandolas a la lista de citas y también visualizar las citas que ya se han agendado.
+Agregue un pequeño menú de opciones que permita crear citas e ir agregandolas a la lista de citas y también visualizar las citas que ya se han agendado.</li>
+</ol>
