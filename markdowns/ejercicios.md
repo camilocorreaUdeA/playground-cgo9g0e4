@@ -25,7 +25,7 @@ Un miembro tipo int para un número serial que identifica al objeto
 Un miembro tipo std::string para darle una denominación al objeto</li>
 
 <li> Los objetos de la clase A solo se pueden crear y configuar a través de una función externa llamada "nuevoObjetoLista". Esta función crea un 
-objeto de la clase A asignando valores al serial y al nombre del objeto. Luego almacena el objeto en la ListadeObjetos invocando el método
+objeto de la clase A asignando valores al serial y al nombre del objeto. Luego almacene el objeto en la ListadeObjetos invocando el método
 que esta clase tiene para almacenar objetos de la clase A.</li>
 
 <li> La aplicación debe tener un sencillo menú de opciones que permita ejecutar distintas acciones como agregar objetos a la lista, retirar objetos de la lista o desplegar información de un objeto individual o de todos los objetos de la lista.</li>
