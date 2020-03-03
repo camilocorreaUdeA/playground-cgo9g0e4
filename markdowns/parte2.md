@@ -98,7 +98,7 @@ Un método `Get` es por lo general un método con una sola línea de código que
 mismo tipo de la variable en cuestión y en general no tiene parámetros de entrada.
 
 Por otra parte, un método `Set` es un método en el cual por lo menos una de las líneas de código modifica directamente el valor de la variable privada.
-Es poco usual que tenga valor de retorno, per sí debe tener por lo menos un parámetro de entrada para el valor con el que se modificará la variable.
+Es poco usual que tenga valor de retorno, pero sí debe tener por lo menos un parámetro de entrada para el valor con el que se modificará la variable.
 
 ```C++ runnable
 #include<iostream>
