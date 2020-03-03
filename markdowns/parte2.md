@@ -44,7 +44,7 @@ int main()
 	MiClase miObjeto; //Declarando un objeto de la clase
 	
 	miObjeto.cambiarVar1(5); //Accediendo a un miembro con el operador punto
-	double var = miObjeto,calcularArea(34.6, 23.9); //Accediendo a un miembro con el operador punto
+	double var = miObjeto.calcularArea(34.6, 23.9); //Accediendo a un miembro con el operador punto
 }
 ```
 
